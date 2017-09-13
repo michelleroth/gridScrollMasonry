@@ -1,0 +1,26 @@
+@media all and (min-width:300px) {
+    
+    body {
+        background-color: #ccc;   
+    }
+    .form {
+        background: url('../images/car2.jpg') no-repeat 0 0;
+        text-align: left;
+        color: white;
+        /*background-color: red;*/
+    }
+    .color {
+        background-color:  rgba(255,255,255,0.8);
+    }
+
+} /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+    body {
+    }
+} /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+    body {
+    }
+} /* ------ desktop styles end ------- */

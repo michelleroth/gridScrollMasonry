@@ -1,0 +1,26 @@
+@media all and (min-width:300px) {
+
+	.parallax__window {
+		min-height: 600px;
+		background: transparent;
+	}
+	.overlay__one {
+		background-color: rgba(255,255,255,.4);
+		text-align: center;
+		height: 300px;
+	}
+	.overlay__two {
+		background-color: rgba(255,255,255,.4);
+		text-align: center;
+		height: 300px;
+	}
+
+} /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+    
+} /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+    
+} /* ------ desktop styles end ------- */

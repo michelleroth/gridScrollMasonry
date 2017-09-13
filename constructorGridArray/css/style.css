@@ -1,0 +1,118 @@
+@media all and (min-width:300px) {
+    body {
+        font-size: 14px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        /* webfont smoothing*/
+    }
+    .characters__img {
+        width: 100%;
+        height: auto;
+    }
+    .characters__name {
+        font-size: 1.0em;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 5px 0px;
+        /* Using em make the text in proportion to the default text- for example the above is 130% of that media size's default size*/
+    }
+    h1, h2, h3, h4, h5 {
+        padding: 0;
+        margin: 0;
+    }
+    .overlay {
+        background-color: rgba(0,0,0,.75);
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        z-index: 1000;
+        color: white;
+        display: none;
+    }
+    #closeBtn {
+        top: -10px;
+        right: -10px;
+    }
+    #nextBtn {
+        top: 50%;
+        right: -10px;
+        margin-top: -25px;
+    }
+    #prevBtn {
+        top: 50%;
+        left: -10px;
+        margin-top: -25px;
+    }
+    .overlay__btn {
+         width: 50px;
+        height: 50px;
+        background-color: black;
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        font-size: 24px;
+        color: white;
+        border: 1px solid white;
+                position: absolute;
+    }
+    .overlay .container {
+        margin-top: 40px; /*added this so we can click above the container and fade out */
+    }
+    .overlay__content {
+        background-color: white;
+        background-image: url('../images/jon-snow-1280.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        color: black;
+        height: calc(100vh - 80px);
+        position: relative;
+    }
+    .overlay__anchor {
+        background-color: rgba(0,0,0,.60);
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        color: white;
+        padding: 20px;
+    }
+    .overlay__anchor h2 {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 2em;
+        position: relative; /*added this so we can animate in js- keeps it staying in it's default location*/
+        left: 0;
+        top: 0;
+        
+    }
+    .overlay__anchor h3 {
+        font-family: 'Bitter', serif;
+        font-size: 1em;
+        font-weight: 400;
+        color: #ccc;
+    }
+    h1 {
+       font-size: 1.5em;
+        margin: 20px 0px;
+        font-family: 'Bitter', serif;
+        text-align: center;
+    }
+    .characters__item {
+        margin-bottom: 20px;
+    }
+    
+} /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+   
+    body {
+        font-size: 16px;
+    }
+    
+} /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+    body {
+        font-size: 18px;
+    }
+    
+} /* ------ desktop styles end ------- */

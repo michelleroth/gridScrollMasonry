@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://use.fontawesome.com/964b38d4d8.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>Car loan calculator</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 yellow">
+                <h1>Salary calculator</h1>
+                <form id="salaryCalculator">
+
+                    <div class="form-group">
+                        <label>Salary:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" name="salary" placeholder="Salary" class="form-control" step=".01" />
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+                    <div class="form-group">
+                        <label>Salary raise rate:</label>
+                        <div class="input-group">
+                            <input type="number" placeholder="Raise rate" class="form-control" name="raise" step=".01" />
+                            <div class="input-group-addon">%</div>
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+                    <div class="form-group">
+                        <label>Retirement contribution %:</label>
+                        <div class="input-group">
+                            <input type="number" placeholder="Contribution" class="form-control" name="contribution" step=".01" />
+                            <div class="input-group-addon">%</div>
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+
+                    <div class="form-group">
+                        <label>Years:</label>
+                        <input type="number" name="years" placeholder="Years" class="form-control" />
+                    </div>
+                    <!-- form group -->
+
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-lg btn-success" value="Calculate" />
+                    </div>
+                    <!-- form group -->
+                </form>
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 results">
+
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/salary.js"></script>
+</body>
+
+</html>

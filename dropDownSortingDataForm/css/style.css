@@ -1,0 +1,23 @@
+@media all and (min-width:300px) {
+    body {
+        background-color: #ccc;   
+    }
+    .card {
+    	background-color:  white;
+    	padding:  20px;
+    	border:  1px solid black;
+    }
+    .filters {
+    	padding: 60px 0px;
+    }
+} /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+    body {
+    }
+} /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+    body {
+    }
+} /* ------ desktop styles end ------- */

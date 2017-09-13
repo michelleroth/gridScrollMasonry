@@ -1,0 +1,41 @@
+@media all and (min-width: 320px) {
+  body {
+    background-color: #76d0f3; 
+  }
+  section.example {
+    height: 500px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    position: relative;
+    overflow: hidden;
+  }
+  section.example h2 {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    line-height: 36px;
+    margin-left: 20px;
+  }
+  #cloud1 {
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    left: -420px;
+  }
+  @keyframes animateCloud {
+      0% {
+          left: -420px;
+      }
+      100% {
+          left: 100%;
+      }
+  }
+  .example-css3 .cloud {
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    left: 0px;
+    animation: animateCloud 35s linear infinite;
+  }
+} /*end

@@ -1,0 +1,19 @@
+@media all and (min-width:300px) {
+    body {
+        background-color: #ccc;   
+    }
+    .yellow {
+        background-color: #4682B4;
+    }
+
+} /* ------ mobile base styles end ------- */
+
+@media all and (min-width:700px) {
+    body {
+    }
+} /* ------ tablet styles end ------- */
+
+@media all and (min-width:992px) {
+    body {
+    }
+} /* ------ desktop styles end ------- */

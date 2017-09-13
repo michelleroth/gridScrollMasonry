@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <script src="https://use.fontawesome.com/964b38d4d8.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title>mortgage calculator</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container form red">
+        <!-- <div class="col-xs-12">
+                 <div style="background-image:url('images/bricks.jpg')"></div>
+            </div> -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 color">
+                <h1>Mortgage Calculator</h1>
+                <form id="homeLoan">
+
+                    <div class="form-group">
+                        <label>Home Price:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" name="homePrice" placeholder="Home Price" class="form-control" step=".01" />
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+                    <div class="form-group">
+                        <label>Interest Rate:</label>
+                        <div class="input-group">
+                            <input type="number" placeholder="Interest rate" class="form-control" name="homeInterestRate" step=".01" />
+                            <div class="input-group-addon">%</div>
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+                    <div class="form-group">
+                        <label for="homeDownPayment">Down Payment:</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="number" placeholder="Down payment" class="form-control" name="homeDownPayment" step=".01" />
+                        </div>
+                        <!-- input group -->
+                    </div>
+                    <!-- form group -->
+
+                    <div class="form-group">
+                        <label>Mortgage Term:</label>
+                        <div class="radio">
+                            <label>
+                        <input type="radio" name="homeMortgageTerm" 
+                        value="180">
+                        Fifteen year loan
+                        </label>
+                        </div>
+                        <!-- radio -->
+                        <div class="radio">
+                            <label>
+                        <input type="radio" name="homeMortgageTerm" 
+                        value="360">
+                        Thirty year loan
+                        </label>
+                        </div>
+                        <!-- radio -->
+                        <div class="radio">
+                            <label>
+                        <input type="radio" name="homeMortgageTerm" 
+                        value="480">
+                        Forty year loan
+                        </label>
+                        </div>
+                        <!-- radio -->
+                    </div>
+                    <!-- form group -->
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-lg btn-success" value="Calculate" />
+                    </div>
+                    <!-- form group -->
+                </form>
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 results">
+
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container red -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
